@@ -40,3 +40,15 @@ for(var m of sarr){
     if(m>2) break; //out of for
     console.log(m);
 }
+
+let i:number= 0;
+
+while(i<10) {
+    console.log(i);
+    i++;
+}
+
+do{
+    console.log(i);
+    i++;
+}while(i<10);
