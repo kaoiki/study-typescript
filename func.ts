@@ -54,3 +54,17 @@ console.log("result is "+factorial(6));
 
 var foo = (x:number):number=>x*x;
 console.log(foo(10));
+
+class Emplyee {
+    id:number;
+    name:string;
+
+    constructor(id:number,name:string) {
+        this.id = id;
+        this.name = name;
+    }
+}
+
+ var emp = new Emplyee(101,"张三");
+ console.log("emp.id is:" + emp.id);
+ console.log("emp.name is:" + emp.name);
