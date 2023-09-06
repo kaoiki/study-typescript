@@ -24,3 +24,22 @@ console.log(words);
 
 let arrayList: any[] = [1, false, 'fine']
 console.log(arrayList[2])
+
+arrayList[1] = 100;
+
+console.log(arrayList)
+
+let x : never;
+var global_num = 12          // for global
+class Numbers { 
+   num_val = 13;             // for class
+   static sval = 10;         // for static
+   
+   storeNum():void { 
+      var local_num = 14;    // for function
+   } 
+} 
+console.log("全局变量为: "+global_num)  
+console.log("静态变量为: " +Numbers.sval)   
+var obj = new Numbers(); 
+console.log("实例变量为: "+obj.num_val)
