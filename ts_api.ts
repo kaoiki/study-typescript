@@ -5,11 +5,12 @@ interface Employee {
 }
 
 let employee: Employee = {
-    firstName : "Emil",
-    lastName: "Andersson",
+    firstName : "Zhou",
+    lastName: "daodao",
     fullName(): string {
         return this.firstName + " " + this.lastName;
     }
 }
+
 
 console.log(employee.fullName());
