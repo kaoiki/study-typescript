@@ -8,3 +8,9 @@ function drawAll(shapeDraw: shape.IShape){
 
 drawAll(new circle.Circle)
 drawAll(new rectangele.Rectangle)
+
+let someArray = [1, "string", false];
+
+for (let entry of someArray) {
+    console.log(entry);
+}
